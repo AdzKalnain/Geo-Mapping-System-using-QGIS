@@ -1,0 +1,300 @@
+body{
+  /* background:#eee;     */
+  background-color: #fafafa;
+}
+#loading {
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  background-color: transparent;
+}
+.table th {
+  font-size: 13px;
+  padding-top: 15px;
+}
+
+.table td {
+  font-size: 13px;
+  border-bottom: 1px solid gray;
+}
+
+.table .btn {
+  font-size: 10px;
+}
+
+.dash-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+}
+@media only screen and (max-width: 860px) {
+  .dash-cards {
+      grid-template-columns: repeat(2,1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dash-cards {
+      grid-template-columns: 100%;
+  }
+}
+.card-single {
+  background: #ffff;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* TEMPLATE SETTING */
+
+.widget-author {
+  margin-bottom: 58px;
+}
+.author-card {
+  background-color: #858796;
+  /* background-color: #fff; */
+  box-shadow: 0 12px 20px 1px rgba(64, 64, 64, .09);
+  color: #fff;
+  position: relative;
+  padding-bottom: 48px;
+}
+.author-card .author-card-profile {
+  display: table;
+  position: relative;
+  padding-top: 16px;
+  padding-right: 15px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  z-index: 5;
+}
+.author-card .author-card-profile .author-card-avatar, .author-card .author-card-profile .author-card-details {
+  display: table-cell;
+  vertical-align: middle;
+}
+.author-card .author-card-profile .author-card-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .15);
+  overflow: hidden;
+}
+.author-card .author-card-profile .author-card-avatar > img {
+  display: block;
+  width: 100%;
+}
+.author-card .author-card-profile .author-card-details {
+  padding-top: 20px;
+  padding-left: 15px;  
+}
+.author-card .author-card-profile .author-card-name {
+  margin-bottom: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.author-card .author-card-profile .author-card-position {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+}
+.author-card .author-card-info {
+  margin-bottom: 0;
+  padding: 0 25px;
+  font-size: 13px;
+}
+.author-card .author-card-social-bar-wrap {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  width: 100%;
+}
+.author-card .author-card-social-bar-wrap .author-card-social-bar {
+  display: table;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 12px 20px 1px rgba(64, 64, 64, .11);
+}
+.btn-style-1.btn-white {
+    background-color: #fff;
+}
+.list-group-item i {
+    display: inline-block;
+    margin-top: -1px;
+    margin-right: 8px;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+.mr-1, .mx-1 {
+    margin-right: .25rem !important;
+}
+
+.list-group-item.active:not(.disabled) {
+    border-color: #e7e7e7;
+    background: #fff;
+    color: #1cc88a;
+    cursor: default;
+    pointer-events: none;
+}
+.list-group-flush:last-child .list-group-item:last-child {
+    border-bottom: 0;
+}
+
+.list-group-flush .list-group-item {
+    border-right: 0 !important;
+    border-left: 0 !important;
+}
+
+.list-group-flush .list-group-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+/* .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+} */
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+a.list-group-item, .list-group-item-action {
+    color: #404040;
+    font-weight: 600;
+}
+.list-group-item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 0 !important;
+    color: #404040;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.125);
+}
+.list-group-item.active:not(.disabled)::before {
+    background-color: #1cc88a;
+}
+
+.list-group-item::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: transparent;
+    content: '';
+}
+
+/* FILE INPUT START*/
+/* USER FILE */
+.input-file-container {
+  position: relative;
+} 
+.js .input-file-trigger {
+  display: block;
+  padding: 10px 20px;
+  border: #858796 2px dashed;
+  background: transparent;
+  color: #858796;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+  background: #858796;
+  color: #fff;
+}
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+  content: "Selected file: ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* DECEASED FILE */
+.input-file-container-deceased {
+  position: relative;
+  /* width: 225px; */
+} 
+.js2 .input-file-trigger-deceased {
+  display: block;
+  padding: 10px 20px;
+  border: #858796 2px dashed;
+  background: transparent;
+  color: #858796;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.js2 .input-file-deceased {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.js2 .input-file-deceased:hover + .input-file-trigger-deceased,
+.js2 .input-file-deceased:focus + .input-file-trigger-deceased,
+.js2 .input-file-trigger-deceased:hover,
+.js2 .input-file-trigger-deceased:focus {
+  background: #858796;
+  color: #fff;
+}
+.file-return-deceased {
+  margin: 0;
+}
+.file-return-deceased:not(:empty) {
+  margin: 1em 0;
+}
+.js2 .file-return-deceased {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+.js2 .file-return-deceased:not(:empty):before {
+  content: "Selected file: ";
+  font-style: normal;
+  font-weight: normal;
+}
+/* FILE INPUT END */

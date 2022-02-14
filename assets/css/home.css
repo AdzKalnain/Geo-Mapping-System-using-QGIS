@@ -1,0 +1,50 @@
+/* .footer{
+    background-color: transparent;
+    height: 20px;
+}
+.footer .copyright p{
+    color: grey;
+    font-size: 14;
+    text-align: center;
+    margin-top: 20px;
+} */
+
+@media screen and (max-width: 575px){
+    .navbar .navbar-toggler{
+        font-size: 13px;
+    }
+    .navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link{
+        font-size: 12px;
+    }
+    .navbar .navbar-brand{
+        font-size: 18px;
+    }
+    .page .clean-hero .text h2{
+        font-size: 20px;
+    }
+    .page .clean-hero .text p{
+        font-size: 13px;
+    }
+    .container .block-heading h2{
+        font-size: 21px;
+    }
+    .container .block-heading p{
+        font-size: 13px;
+    }
+    .container .feature-box i{
+        font-size: 25px;
+    }
+    .container .feature-box h4{
+        font-size: 15px;
+    }
+    .container .feature-box p{
+        font-size: 12px;
+    }
+    .page-footer {
+        margin-top: -80px;
+    }
+    .page-footer .footer-copyright p {
+        font-size: 12px;
+    }
+    
+}
