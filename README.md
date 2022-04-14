@@ -8,3 +8,9 @@ This system is a project that I developed during my 3rd year in College using Qu
 4. HTML
 5. CSS
 6. Bootstrap
+
+## Setup
+1. Install xampp. 
+2. Download and copy the project into the htdoc folder located in the xampp folder.
+3. Run xampp, and click the or run apache and MySQL.
+4. Open any web-browser and run the project index file.
