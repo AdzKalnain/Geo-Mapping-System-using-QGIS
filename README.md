@@ -14,3 +14,8 @@ This system is a project that I developed during my 3rd year in College using Qu
 2. Download and copy the project into the htdoc folder located in the xampp folder.
 3. Run xampp, and click the or run apache and MySQL.
 4. Open any web-browser and run the project index file.
+
+## Features
+1. Search and locate specific grave.
+2. Accomodate cemetery related services.
+3. Identify graves by the number of deceased buried in a single grave (It's common in Muslim to share a single grave with relatives).
