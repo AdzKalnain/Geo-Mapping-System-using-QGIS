@@ -21,5 +21,5 @@ This system is a project that I developed during my 3rd year in College using Qu
 3. Identify graves by the number of deceased buried in a single grave (It's common in Muslim to share a single grave with relatives).
 
 <div align="center">
-  <img src="https://github.com/AdzKalnain/Geo-Mapping-System-using-QGIS/blob/main/assets/mapping.gif" width="100%"/>
+  <img src="https://github.com/AdzKalnain/Geo-Mapping-System-using-QGIS/blob/main/assets/img/map.jpg" width="100%"/>
 </div>
