@@ -20,6 +20,6 @@ This system is a project that I developed during my 3rd year in College using Qu
 2. Accomodate cemetery related services.
 3. Identify graves by the number of deceased buried in a single grave (It's common in Muslim to share a single grave with relatives).
 
-<div align="center" border:2px>
+<div align="center" border:"2px">
   <img src="https://github.com/AdzKalnain/Geo-Mapping-System-using-QGIS/blob/main/assets/img/map.jpg" width="100%"/>
 </div>
