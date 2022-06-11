@@ -8,6 +8,7 @@ This system is a project that I developed during my 3rd year in College using Qu
 4. HTML
 5. CSS
 6. Bootstrap
+7. Leaflet
 
 ## Setup
 1. Install xampp. 
