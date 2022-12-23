@@ -12,9 +12,9 @@ This system is a project that I developed during my 3rd year in College using Qu
 
 ## Setup
 1. Install xampp. 
-2. Download and copy the project into the htdoc folder located in the xampp folder.
-3. Run xampp, and click the or run apache and MySQL.
-4. Open any web-browser and run the project index file.
+2. Download and copy the project into the htdocs folder located in the xampp folder.
+3. Run xampp, and click or run apache and MySQL.
+4. Open any web-browser(preferably latest version) and run the project index file.
 
 ## Features
 1. Search and locate specific grave.
